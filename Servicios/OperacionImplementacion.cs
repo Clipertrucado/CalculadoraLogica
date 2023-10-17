@@ -12,7 +12,10 @@ namespace CalLog.Servicios
 
         public string Desigualdad(string d1, string d2)
         {
+            
             string d3;
+
+            //creamos un if en el que se comparen los dos datos introducidos y dependiendo de si es verdadero o falso devolvera uno opcion u otra
             if (String.Equals(d1, d2))
             {
                 d3 = "Falso";
@@ -43,6 +46,7 @@ namespace CalLog.Servicios
 
         public string Datos()
         {
+
             string d;
 
             Console.WriteLine("Ingresa una cadena de caracteres para comparar");
